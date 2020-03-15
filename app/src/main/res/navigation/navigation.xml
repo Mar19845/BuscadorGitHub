@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="com.example.buscadorgithub.Inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicio_to_repositorios"
+            app:destination="@id/repositorios" />
+    </fragment>
+    <fragment
+        android:id="@+id/repositorios"
+        android:name="com.example.buscadorgithub.Repositorios"
+        android:label="fragment_repositorios"
+        tools:layout="@layout/fragment_repositorios" />
+</navigation>

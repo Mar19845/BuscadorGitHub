@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">BuscadorGitHub</string>
+    <string name="ingrese_el_usuario_de_github">Ingrese el usuario de GitHub</string>
+    <string name="buscar">Buscar</string>
+    <string name="repositorios">Repositorios</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
