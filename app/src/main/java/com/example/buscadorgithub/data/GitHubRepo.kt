@@ -9,4 +9,7 @@ import retrofit2.http.Path
 interface GitHubRepo {
     @GET("/users/{valors}/repos")
     fun listRepos(@Path("valors") user: String?): Call<List<Repos>>
+    @GET("/users/{valors}")
+    fun getProperties(@Path("valors") valors: String?):
+            Call<Repos>
 }
